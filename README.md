@@ -1,4 +1,4 @@
-# lambda-udrm-spekev2-with-auth-node
+# AWS-ELEMENTAL-MEDIAPACKAGE-SPEKE-VERSION-CONVERTER
 This is a sample implementation for AWS Elemental MEdiaPackager V1/V2 with SPEKEv2 Protocol.
 It can be used as 
 The license server (ContentKeyServer). supports SPEKEv1 only.
