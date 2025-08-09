@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cpix:CPIX contentId="3216403-1_diyt0263" version="2.3" xmlns:cpix="urn:dashif:org:cpix">
+	<cpix:ContentKeyList>
+		<cpix:ContentKey commonEncryptionScheme="cenc" kid="888f278a-1f07-3429-a309-ae5d357766f3"/>
+	</cpix:ContentKeyList>
+	<cpix:DRMSystemList>
+		<cpix:DRMSystem kid="888f278a-1f07-3429-a309-ae5d357766f3" systemId="9a04f079-9840-4286-ab92-e65be0885f95">
+			<cpix:PSSH/>
+			<cpix:ContentProtectionData/>
+			<cpix:HLSSignalingData playlist="media"/>
+			<cpix:HLSSignalingData playlist="master"/>
+		</cpix:DRMSystem>
+		<cpix:DRMSystem kid="888f278a-1f07-3429-a309-ae5d357766f3" systemId="edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+			<cpix:PSSH/>
+			<cpix:ContentProtectionData/>
+			<cpix:HLSSignalingData playlist="media"/>
+			<cpix:HLSSignalingData playlist="master"/>
+		</cpix:DRMSystem>
+	</cpix:DRMSystemList>
+	<cpix:ContentKeyPeriodList>
+		<cpix:ContentKeyPeriod id="8b4fe01d-61e7-38b4-a2f9-ff161164b336" index="0"/>
+	</cpix:ContentKeyPeriodList>
+	<cpix:ContentKeyUsageRuleList>
+		<cpix:ContentKeyUsageRule intendedTrackType="ALL" kid="888f278a-1f07-3429-a309-ae5d357766f3">
+			<cpix:KeyPeriodFilter periodId="8b4fe01d-61e7-38b4-a2f9-ff161164b336"/>
+			<cpix:VideoFilter/>
+			<cpix:AudioFilter/>
+		</cpix:ContentKeyUsageRule>
+	</cpix:ContentKeyUsageRuleList>
+</cpix:CPIX>
